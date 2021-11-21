@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:checked="true"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_quizTime"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="Quiz Time" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="List of questions" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="New question" />
+    </group>
+</menu>
